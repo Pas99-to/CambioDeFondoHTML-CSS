@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="" id="lnkCSS">
+    <title>EJemplo de Manejo CSS</title>
+    <script type="text/javascript">
+            var slcCSS;
+            var lnkCSS ;   
+            function slcCSS_onChange() {
+                /* DE LA LISTA DE OPCIONES SE ELIGE UNA PARA POSTERIORMENTE 
+                CARGARSE LA OPCION DESEADA TOMA EL VALOR DE INDEX PARA LLAMAR 
+                A LA FUNCION QUE CARGA LOS DIFERENTES FONDOS */
+
+                lnkCSS.href = slcCSS.options[slcCSS.selectedIndex].value;
+            }
+            /*CARGA EL ESTILO ELEGIDO Y LO MUESTRA */
+            function cssExample_onLoad(){
+                slcCSS = document.getElementById("slcCSS");
+                lnkCSS = document.getElementById("lnkCSS");
+            }
+
+            window.onload = cssExample_onLoad;
+    </script>
+</head>
+
+<body>
+    <form method="post" name="frmCSS">
+        <h1><blinkS id="blink"> USO CSS</blink></h1>
+        <br> <br> <br>
+        <div class="lblNormal2">
+            Tema/Estilo/CSS:
+            <select class="cmbNormal" name="slcCSS" id="slcCSS" onchange="slcCSS_onChange()">
+                <option id="styleNone" value="selectd">Ninguno</option>
+                <option id="styleControlGame" value="CSS/styleControlGame.css">Consolas de Videojuegos</option>
+                <option id="styleMario" value="CSS/styleMario.css">Mario Bros</option>
+                <option id="styleCallOdDuty" value="CSS/styleCallOdDuty.css">Call Of Duty</option>
+                <option id="stylePacMan" value="CSS/stylePacMan.css">Pac Man</option>
+                <option id="styleDonkyKong" value="CSS/styleDonkyKong.css">Donkey Kong</option>
+            </select>
+        </div>
+        <br> <br> <br>
+        <div class="lblNormal">
+            Consolas Favoritas:   
+        </div>
+
+        <ol>
+            <li class="lstElemento">Play Station</li>
+            <li class="lstElemento">Xbox</li>
+            <li class="lstElemento">Nintendo</li>
+            <li class="lstElemento">Atari VCS 2020 </li>
+            <li class="lstElemento">Steam Deck</li>
+        </ol>
+
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+body{
+    background-image:url(../Wallpaper/PacMan.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    backdrop-filter: grayscale(0.5) opacity(0.8);
+}
+
+h1{
+    font-size: 40px;
+    text-align:right;
+}
+
+#blink{
+    font-family:"MathJax_AMS"; 
+    color: #7dfb29;  
+}
+
+.lblNormal{
+    font-weight: 300;
+    color: #73bbcc;
+    font-family:"MathJax_AMS";
+    font-size:70px;
+    text-align: center;
+}
+
+.lblNormal2{
+    font-weight: 200;
+    color: #1aa3f8;
+    font-family:"MathJax_AMS";
+    font-size:50px;
+    text-align: center;
+}
+
+.cmbNormal{
+    font-size: 18;
+    color: rgb(51, 161, 239);
+    font-family:"MathJax_AMS";
+}
+
+.lstElemento{
+    color:#0c0c0c;
+    font-size: 15PX;
+    font-family:"MathJax_AMS";
+    text-align: center;
+}

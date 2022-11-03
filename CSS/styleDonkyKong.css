@@ -1,0 +1,45 @@
+body{
+    background-image:url(../Wallpaper/DonkyKong.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    backdrop-filter: grayscale(0.5) opacity(0.8);
+}
+
+h1{
+    font-size: 40px;
+    text-align:center;
+}
+
+#blink{
+    font-family:"MathJax_Typewriter"; 
+    color: #ff4c1f;  
+}
+
+.lblNormal{
+    font-weight: 300;
+    color: #01fcc1;
+    font-family:"MathJax_Typewriter";
+    font-size:70px;
+    text-align: center;
+}
+
+.lblNormal2{
+    font-weight: 200;
+    color: #e2ff06;
+    font-family:"MathJax_Typewriter";
+    font-size:50px;
+    text-align: center;
+}
+
+.cmbNormal{
+    font-size: 18;
+    color: rgb(0, 0, 0);
+    font-family:"MathJax_Typewriter";
+}
+
+.lstElemento{
+    color:#fafa07;
+    font-size: 20PX;
+    font-family:"MathJax_AMS";
+    text-align: center;
+}

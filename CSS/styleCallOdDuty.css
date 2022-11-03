@@ -1,0 +1,45 @@
+body{
+    background-image:url(../Wallpaper/CallOdDuty.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    backdrop-filter: grayscale(0.5) opacity(0.5);
+}
+
+h1{
+    font-size: 40px;
+    text-align:right;
+}
+
+#blink{
+    font-family:"Dyuthi"; 
+    color: #7dfb29;  
+}
+
+.lblNormal{
+    font-weight: 300;
+    color: #7dfb29;
+    font-family:"Dyuthi";
+    font-size:70px;
+    text-align: center;
+}
+
+.lblNormal2{
+    font-weight: 200;
+    color: #e4143e;
+    font-family:"Dyuthi";
+    font-size:50px;
+    text-align: center;
+}
+
+.cmbNormal{
+    font-size: 18;
+    color: rgb(51, 161, 239);
+    font-family:"Dyuthi";
+}
+
+.lstElemento{
+    color:#f7f7f7;
+    font-size: 25PX;
+    font-family:"Dyuthi";
+    text-align: center;
+}

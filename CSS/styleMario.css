@@ -1,0 +1,36 @@
+body{
+    background-image:url(../Wallpaper/Mario.jpeg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    backdrop-filter: opacity(0.5);
+}
+
+h1{
+    text-align:left;
+}
+
+#blink{
+    font-family:"Timmana"; 
+    color: #eda426;  
+}
+
+.lblNormal{
+    font-weight: 600;
+    color: #eda426;
+    font-family:"Timmana";
+    font-size:60px;
+    text-align: center;
+}
+
+.cmbNormal{
+    font-size: 12;
+    color: rgb(51, 161, 239);
+    font-family:"Timmana";
+}
+
+.lstElemento{
+    color:#f7f7f7;
+    font-size: 40PX;
+    font-family:"Timmana";
+    text-align: center;
+}
